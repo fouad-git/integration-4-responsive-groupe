@@ -123,7 +123,8 @@ body{
 }
 
 .breadcrumb li::before {
-    content: "→";
+    content: ">";
+    color:#b3c0c9;
 }
     
 .breadcrumb li:first-child::before {
