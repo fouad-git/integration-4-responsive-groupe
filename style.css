@@ -61,3 +61,11 @@ box-sizing: border-box;
 body{
     margin:0;
 }
+
+
+.box1
+{
+    width: 100%;
+    max-width: 370px;
+    height: 654px;
+}
