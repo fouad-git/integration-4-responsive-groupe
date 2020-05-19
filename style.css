@@ -96,7 +96,11 @@ box-sizing: border-box;
 .cl-bg-nd
 {
     background-color: #1ABC9C;
-}      
+} 
+.cl-txt-nd
+{
+    color: #fff;
+}     
 /*marges*/
 .mrg0{
     margin: 0;
@@ -245,6 +249,10 @@ body{
     transform: translateX(0);
 }
 }
+/*box5*/
+.hov--btn:hover{
+    background-color:#1ABC9C;
+}
 
 /*box6*/
 .box6{
@@ -264,4 +272,42 @@ body{
     width: 330px;
     height: 90px;
     box-sizing: border-box;
+}
+/*box 7*/
+.box7
+{
+    width: 100%;
+    max-width: 370px;
+    height: 360px;
+    border: 1px solid black;
+}
+.box-in-box
+{
+    width: 330px;
+    height: 250px;
+    background-color: #21C2F8;
+    color: #fff;
+}
+/*box 8*/
+.box8
+{
+    width: 100%;
+    max-width: 370px;
+    height: 740px;
+    border: 1px solid black;
+}
+
+/*box 9*/
+
+.box9
+{
+    
+    width: 100%;
+    max-width: 370px;
+    height: 385px;
+    border: 1px solid black;
+}
+.hov-txt:hover
+{
+    color: #1ABC9C;
 }
