@@ -182,3 +182,55 @@ body{
     border: 1px solid black;
     
 }
+
+/*box3*/
+.box3
+{
+    width: 100%;
+    max-width: 370px;
+    height: 680px;
+    border: 1px solid black;
+    
+}
+.slider
+{
+    width: 330px;
+    height: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.slides
+{
+    width: calc(330px * 3);
+    animation: box3 10S infinite;
+   
+    
+}
+.slide
+{
+    float: left;
+}
+
+@keyframes box3 {
+0% {
+    transform: translateX(0);
+}
+10% {
+    transform: translateX(0);
+}
+33% {
+    transform: translateX(-330px);
+}
+44% {
+    transform: translateX(-330px);
+}
+66% {
+    transform: translateX(-660px);
+}
+77% {
+    transform: translateX(-660px);
+}
+100% {
+    transform: translateX(0);
+}
+}
