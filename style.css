@@ -162,7 +162,7 @@ body{
 .btn--mn
 {
     width: 120px;
-    height: 40;
+    height: 40px;
     border-radius: 3px;
     border: none;
     color:#fff;
@@ -171,4 +171,14 @@ body{
     box-sizing: border-box;
     padding: 15px;
     margin: 20px 230px 20px 20px;
+}
+
+/*box2*/
+.box2
+{
+    width: 100%;
+    max-width: 370px;
+    height: 540px;
+    border: 1px solid black;
+    
 }
