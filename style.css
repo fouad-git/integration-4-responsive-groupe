@@ -145,7 +145,10 @@ box-sizing: border-box;
 .ali-ct{
     text-align: center;
 }
-
+.ct-medias
+{
+    margin: 20px 20px 0 20px;
+}
 body{
     margin:0;
 }
@@ -197,7 +200,7 @@ body{
     width: 330px;
     height: 400px;
     overflow: hidden;
-    margin: 0 auto;
+    margin: 20px 20px 0 20px;
 }
 .slides
 {
