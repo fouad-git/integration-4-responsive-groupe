@@ -1,3 +1,9 @@
+footer{
+    width: 120rem;
+    height: 35.5rem;
+}
+
+
 footer h1{
     margin-block-end: 0px;
     margin-block-start: 0rem;
@@ -30,7 +36,9 @@ footer p{
 footer header{
     padding-bottom: 1.125rem;
 }
-
+ .block{
+     width: 23.375rem;
+ }
 .haut{
     display: flex;
     align-items: center;
@@ -38,8 +46,13 @@ footer header{
     width: 120rem;
     height: 29.1875rem;
     border-top: 6.0625rem;
+}
+
+.post{
+    width: 16.875rem;
+    height: 16.8125rem;
+    padding-right: 1.25rem;
     padding-left: 23.375rem;
-    
 }
 
 .foot{
@@ -88,4 +101,34 @@ width: 100%;
     background-color: #1ABC9C;
     height: 0.1875rem;
     width: 4.375rem;
+}
+
+.bas{
+    height: 6.25rem;
+    background-color: #171D22;
+}
+
+.bas{
+    display: flex;
+    flex-direction: row;
+    color: #A1B1BC;
+}
+
+.reserved{
+    padding-left: 23.4375rem;
+    font-size: 0.9375rem;
+    height: 1.125rem;
+    width: 30.75rem; 
+    padding-top: 2.5625rem;
+}
+
+.tranmau{
+    color: #1ABC9C;
+}
+
+.icons{
+    width: 7.0625rem;
+    height: 1.3125rem;
+    font-size: 1rem;
+    padding-top: 2.5rem;
 }
