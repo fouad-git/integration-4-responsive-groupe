@@ -92,7 +92,11 @@ box-sizing: border-box;
 .cl-bg-bx
 {
     background-color: #2C3E50;
-}       
+} 
+.cl-bg-nd
+{
+    background-color: #1ABC9C;
+}      
 /*marges*/
 .mrg0{
     margin: 0;
@@ -103,6 +107,10 @@ box-sizing: border-box;
 .mrg-lft
 {
     margin-left: 20px;
+}
+.mrg-bt
+{
+    margin-bottom: 50px;
 }
 /*padding*/
 .padD0
@@ -236,4 +244,24 @@ body{
 100% {
     transform: translateX(0);
 }
+}
+
+/*box6*/
+.box6{
+    width: 100%;
+    max-width: 370px;
+    height: 370px;
+    border: 1px solid black;
+    
+}
+
+.audio--bx
+{
+    border:none;
+    background-color: rgb(106, 130, 155);
+    margin:20px 20px 0 20px;
+    padding: 20px;
+    width: 330px;
+    height: 90px;
+    box-sizing: border-box;
 }
