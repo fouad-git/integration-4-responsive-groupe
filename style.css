@@ -224,7 +224,7 @@ header{
     line-height: 1.1875rem;
 }
 .header-nav>ul{
-    width: -moz-available;
+    width: 100%;
 }
 .header-nav-item{
     height:100%;
