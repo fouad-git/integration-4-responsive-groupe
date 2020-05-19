@@ -31,7 +31,15 @@
 	font-style: normal;
 }
 /*Police de caractère*/
-
+.text_lato-bold{
+    font-family: 'Lato-Bold';
+}
+.text_lato-regular{
+    font-family: 'Lato-Regular';
+}
+.text_lato-black{
+    font-family: 'Lato-Black';
+}
 
 
 ul{
@@ -107,12 +115,33 @@ body{
 }
 
 /*HEADER*/
-#language-select{
-    font-family: 'Lato-Bold';
-    font-size: 1.125rem;
-    line-height: 4.125rem;
-    border: none;
+.nav-languages{
+   font-size:14px;
+   line-height: 19px;
 }
+.nav-languages img{
+    margin-left: 9px;
+}
+.list-languages{
+    display: none;
+    position:absolute;
+}
+.nav-languages:hover > .list-languages {
+    display: block;
+}
+
+
+
+#shopping-button{
+    height: min-content;
+    padding: 8px 9px 8px 5px;
+    border: 1px solid #ecf0f1;
+    border-radius: 1px;
+}
+.header-link>a>span{
+    font-size: 13px;
+}
+
 .icon-facebook:before {
     content: "\e0c1";
     color: white;
