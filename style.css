@@ -138,6 +138,10 @@ box-sizing: border-box;
 {
     padding-left: 20px;
 }
+.pad--bt20
+{
+    padding-bottom: 20px;
+}
 
 /*tailles caractéres*/
 .f-1
@@ -173,6 +177,21 @@ box-sizing: border-box;
 {
     margin: 20px 20px 0 20px;
 }
+.line--tp {
+    background-color: #ECF0F1;
+    height: 0.0625rem;
+    width: 80%;}
+
+.line--bt
+{
+    background-color: #ECF0F1;
+    height: 0.0600rem;
+    width: 100%;}
+
+
+
+
+
 body{
     margin:0;
 }
@@ -182,7 +201,7 @@ body{
 {
     width: 100%;
     max-width: 370px;
-    height: 655px;
+    height: 665px;
     border: 1px solid #ECF0F1;
    
 }
@@ -204,7 +223,7 @@ body{
 {
     width: 100%;
     max-width: 370px;
-    height: 540px;
+    height: 537px;
     border: 1px solid #ECF0F1;
     
 }
@@ -214,7 +233,7 @@ body{
 {
     width: 100%;
     max-width: 370px;
-    height: 680px;
+    height: 690px;
     border: 1px solid #ECF0F1;
     
 }
@@ -264,7 +283,7 @@ body{
 .box4{
     width: 100%;
     max-width: 370px;
-    height: 540px;
+    height: 537px;
     border: 1px solid #ECF0F1;
     
 }
@@ -272,10 +291,10 @@ body{
 .box5{
     width: 100%;
     max-width: 370px;
-    height: 655px;
+    height: 665px;
     border: 1px solid #ECF0F1;
     position: relative;
-    bottom: 115px;
+    bottom: 125px;
 }
 
 .hov--btn:hover{
@@ -286,7 +305,7 @@ body{
 .box6{
     width: 100%;
     max-width: 370px;
-    height: 370px;
+    height: 380px;
     border: 1px solid #ECF0F1;
     margin-top: 25px;
     
@@ -307,7 +326,7 @@ body{
 {
     width: 100%;
     max-width: 370px;
-    height: 360px;
+    height: 333px;
     border: 1px solid #ECF0F1;
     position: relative;
     bottom:140px;
@@ -323,7 +342,7 @@ body{
 {
     width: 100%;
     max-width: 370px;
-    height: 740px;
+    height: 745px;
     border: 1px solid #ECF0F1;
     position: relative;
     bottom:140px;
@@ -336,7 +355,7 @@ body{
     
     width: 100%;
     max-width: 370px;
-    height: 385px;
+    height: 340px;
     border: 1px solid #ECF0F1;
     position: relative;
     bottom:280px;
@@ -352,10 +371,10 @@ body{
 {
     width: 100%;
     max-width: 370px;
-    height:530px;
+    height:541px;
     border: 1px solid #ECF0F1;
     position: relative;
-    bottom:490px;
+    bottom:525px;
 }
 
 .slider-bt
@@ -405,7 +424,7 @@ body{
  {
     width: 100%;
     max-width: 370px;
-    height: 360px;
+    height: 333px;
     border: 1px solid #ECF0F1; 
     position: relative;
     bottom:110px;
@@ -416,10 +435,10 @@ body{
 {
     width: 100%;
     max-width: 370px;
-    height: 540px;
+    height: 537px;
     border: 1px solid #ECF0F1;
     position: relative;
-    bottom:605px;
+    bottom:655px;
     
 }
 
@@ -429,10 +448,10 @@ body{
  {
     width: 100%;
     max-width: 370px;
-    height: 590px;
+    height: 588px;
     border: 1px solid #ECF0F1;
     position: relative;
-    bottom:470px;
+    bottom:495px;
  }
 
  /*box 14*/
@@ -440,10 +459,10 @@ body{
  {
     width: 100%;
     max-width: 370px;
-    height:450px;
+    height:371px;
     border: 1px solid #ECF0F1;
     position: relative;
-    bottom:260px;
+    bottom:290px;
  }
 
  /*box 15 */
@@ -451,19 +470,19 @@ body{
  {
     width: 100%;
     max-width: 370px;
-    height:510px;
+    height:520px;
     border: 1px solid #ECF0F1;
     position: relative;
-    bottom:575px;
+    bottom:630px;
  }
  /*box 16 */
  .box16
  {
     width: 100%;
     max-width: 370px;
-    height:275px;
+    height:285px;
     border: 1px solid #ECF0F1;
     position: relative;
-    bottom:625px;
+    bottom:665px;
     left: 400px;
  }
