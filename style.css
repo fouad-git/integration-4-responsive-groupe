@@ -14,8 +14,6 @@
 	font-style: normal;
 }
 
-
-
 @font-face {
 	font-family: 'Lato-Black';
 	src: url('fonts/Lato-Black.eot');
@@ -109,6 +107,7 @@ box-sizing: border-box;
 {
     background-color: #21C2F8;
 }  
+
 /*marges*/
 .mrg0{
     margin: 0;
@@ -128,8 +127,14 @@ box-sizing: border-box;
 {
     margin-top: 100px;
 }
+.mrg-rt
+{
+    margin-right: 10px;
+}
+
+
 /*padding*/
-.padD0
+.pad0
 {
     padding: 0;
     
@@ -170,6 +175,8 @@ box-sizing: border-box;
 }
 
 /*alignement*/
+
+
 .ali-ct{
     text-align: center;
 }
@@ -188,12 +195,26 @@ box-sizing: border-box;
     height: 0.0600rem;
     width: 100%;}
 
+.hr
+{
+    background-color:#ECF0F1;
+    height: 0.150rem;
+    border: none;
+    position: relative;
+    bottom:600px;
+    width: 100%;
+}
+
+
+
+/*****fin utilitaires****/
 
 
 
 
 body{
     margin:0;
+   
 }
 
 
@@ -205,6 +226,8 @@ body{
     border: 1px solid #ECF0F1;
    
 }
+/*style boite ts les bouton*/
+
 .btn--mn
 {
     width: 120px;
@@ -219,6 +242,7 @@ body{
 }
 
 /*box2*/
+
 .box2
 {
     width: 100%;
@@ -229,6 +253,7 @@ body{
 }
 
 /*box3*/
+
 .box3
 {
     width: 100%;
@@ -237,6 +262,9 @@ body{
     border: 1px solid #ECF0F1;
     
 }
+
+/* début style pour le slider*/
+
 .slider
 {
     width: 330px;
@@ -244,6 +272,7 @@ body{
     overflow: hidden;
     margin: 20px 20px 0 20px;
 }
+
 .slides
 {
     width: calc(330px * 3);
@@ -251,6 +280,7 @@ body{
    
     
 }
+
 .slide
 {
     float: left;
@@ -279,7 +309,13 @@ body{
     transform: translateX(0);
 }
 }
+
+
+/*fin style slider*/
+
+
 /*box 4 */
+
 .box4{
     width: 100%;
     max-width: 370px;
@@ -287,7 +323,9 @@ body{
     border: 1px solid #ECF0F1;
     
 }
+
 /*box5*/
+
 .box5{
     width: 100%;
     max-width: 370px;
@@ -302,6 +340,7 @@ body{
 }
 
 /*box6*/
+
 .box6{
     width: 100%;
     max-width: 370px;
@@ -311,7 +350,8 @@ body{
     
 }
 
-.audio--bx
+.audio--bx /*style autour des pistes audios*/
+
 {
     border:none;
     background-color: rgb(106, 130, 155);
@@ -321,7 +361,9 @@ body{
     height: 90px;
     box-sizing: border-box;
 }
+
 /*box 7*/
+
 .box7
 {
     width: 100%;
@@ -331,7 +373,10 @@ body{
     position: relative;
     bottom:140px;
 }
-.box-in-box
+
+/*carrée de couleur dans les articles (bleu et vert foncé)*/
+
+.box-in-box 
 {
     width: 330px;
     height: 250px;
@@ -360,6 +405,8 @@ body{
     position: relative;
     bottom:280px;
 }
+
+
 .hov-txt:hover
 {
     color: #1ABC9C;
@@ -484,5 +531,97 @@ body{
     border: 1px solid #ECF0F1;
     position: relative;
     bottom:665px;
-    left: 400px;
+    left: 800px;
  }
+
+ /**animation et effet ts les boutons**/
+ button{
+     box-shadow: 6px 6px 20px 4px rgba(0,0, 0, 0.2);
+     cursor: pointer;
+     outline: none;
+     transition: 0.2s;
+ }
+
+ button:hover{
+    box-shadow: 6px 6px 25px 4px rgba(0,0, 0, 0.18);
+    transform: scale(1.09)
+ }
+
+ button:active{
+    box-shadow: 6px 6px 18px 2px rgba(0,0, 0, 0.23);
+    transform: scale(0.98)
+ }
+.comment:hover
+{
+animation: mg 2s infinite;
+}
+
+@keyframes mg {
+    0% {
+        transform: scale(2);
+    }
+
+    30% {
+        transform: rotate(90deg);
+    }
+   
+    70% {
+        transform: rotate(180deg);}
+   
+    100% {
+        transform: rotate(360deg);
+    }
+    }
+    .love:hover
+    {
+    animation: heart 1s infinite;
+    }
+    
+    @keyframes heart {
+        0% {
+            transform: scale(1);
+        }
+        33% {
+            transform: scale(2)
+        } 
+        66%{
+            transform: scale(1);
+        }
+        100%{
+            transform: scale(2);
+        }
+    }
+    /**icons en bas au dessus du footer*/
+
+    .icons
+    {
+        position: relative;
+        left: 990px;
+        bottom: 555px;
+    }
+    .icons-carré
+    {
+        border: 1px solid rgba(0,0, 0, 0.2);
+        border-radius: 3px;
+        padding: 20px;
+        background-color: #222533;
+        box-shadow: 6px 6px 20px 4px rgba(0,0, 0, 0.2);
+        cursor: pointer;
+        outline: none;
+        transition: 0.2s;
+    }
+
+    .icons-carré:hover{
+        box-shadow: 6px 6px 25px 4px rgba(0,0, 0, 0.18);
+        background-color: #2C3E50;
+        color: #1ABC9C;
+        transform: scale(1.09)
+     }
+    
+     .icons-carré:active{
+        box-shadow: 6px 6px 18px 2px rgba(0,0, 0, 0.23);
+        background-color: #2C3E50;
+        color: #1ABC9C;
+        transform: scale(0.98)
+     }
+
