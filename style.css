@@ -159,7 +159,7 @@ header{
     height: min-content;
     padding: 0.5rem 0.5625rem 0.5rem 0.3125rem;
     border: 1px solid #ecf0f1;
-    border-radius: 1px;
+    border-radius: 3px;
     margin-right: 0.9375rem;
 }
 .header-link>a>span{
@@ -243,6 +243,8 @@ header{
     color:#2c3e50;
     font-size: 1.25rem;  
 }
+
+
 .header-nav-item:hover{
     border-top:solid  3px #1abc9c;
     box-sizing: border-box;
@@ -277,8 +279,12 @@ header{
     font-size: 0.875rem;
 }
 
+
+.burger-layout {
+    display: none;
+}
 /*Responsive Header*/
-@media only screen and (min-width : 991px) and (max-width : 1224px){
+@media only screen and (min-width : 991px) and (max-width : 1324px){
     .container{
         max-width: 900px;
     }
@@ -288,18 +294,17 @@ header{
 }
 @media only screen and (min-width : 768px) and (max-width : 991px) {
     .container{
-        max-width:100%;
+        width: auto;
         padding-left: 2rem;
         padding-right: 2rem;
     }
     .header-nav{
         position: absolute;
         flex-direction: column;
-        background-color: white;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
+        background-color: #222533;
+        top: 140px;
+        right:0;
+        width: 100%;            
         font-size: 1.5rem;
         display: none;
     }
@@ -312,20 +317,159 @@ header{
         border-bottom:solid 2px #A1B1BC;
         width: inherit;
         padding:2rem;
-    }
-    .header-nav-item{
+        justify-content: center;
         pointer-events: none;
     }
     .icon-search {
         display: none;
     }
+    .header-title{
+        flex-direction: column;
+        align-items: center;
+        padding:2rem ;
+    }
+    .breadcrumb{
+        margin-top: 1rem;
+    }
+    .burger-layout{
+        display: flex;
+    }
+    #burger{
+        height: 3rem;
+        width: 3rem;
+    }
+    #burger::before{
+        content: "\62";
+        font-family: 'ElegantIcons';
+        color:#A1B1BC;
+        font-size: 3rem; 
+    }
+    .header-nav.toggleCls{
+        display: flex;
+    }
     
 }
 @media only screen and (min-device-width : 480px) and (max-width:767.98px){
+    .top-header-layout{
+        display: none;
+    }
     
+    .container{
+        width: auto;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .header-nav{
+        position: absolute;
+        flex-direction: column;
+        background-color: #222533;
+        top: 85px;
+        right:0;
+        width: 100%;            
+        font-size: 1.5rem;
+        display: none;
+    }
+    .header-nav>ul{
+        flex-direction: column;
+        align-items: baseline;
+        width: 90%;
+    }
+    .header-nav-item{
+        border-bottom:solid 2px #A1B1BC;
+        width: inherit;
+        padding:2rem;
+        justify-content: center;
+        pointer-events: none;
+    }
+    .icon-search {
+        display: none;
+    }
+    .header-title{
+        flex-direction: column;
+        align-items: center;
+        padding:1rem ;
+    }
+    .breadcrumb{
+        margin-top: 1rem;
+    }
+    .burger-layout{
+        display: flex;
+    }
+    #burger{
+        height: 3rem;
+        width: 3rem;
+    }
+    #burger::before{
+        content: "\62";
+        font-family: 'ElegantIcons';
+        color:#A1B1BC;
+        font-size: 3rem; 
+    }
+    .header-nav.toggleCls{
+        display: flex;
+    }
 }
 @media only screen and (max-device-width : 480px)  {
-    
+    .top-header-layout{
+        display: none;
+    }   
+    .container{
+        width: auto;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .navbar-brand{
+        padding: 0.7rem 0;
+    }
+    .header-nav{
+        position: absolute;
+        flex-direction: column;
+        background-color: #222533;
+        top: 85px;
+        right:0;
+        width: 100%;            
+        font-size: 1.5rem;
+        display: none;
+    }
+    .header-nav>ul{
+        flex-direction: column;
+        align-items: baseline;
+        width: 90%;
+    }
+    .header-nav-item{
+        border-bottom:solid 1px #A1B1BC;
+        width: 100%;
+        padding:2rem 0;
+        justify-content: center;
+        pointer-events: none;
+    }
+    .icon-search {
+        display: none;
+    }
+    .header-title{
+        flex-direction: column;
+        align-items: center;
+        padding:1rem ;
+    }
+    .breadcrumb{
+        margin-top: 1rem;
+    }
+    .burger-layout{
+        display: flex;
+    }
+    #burger{
+        height: 3rem;
+        width: 3rem;
+    }
+    #burger::before{
+        content: "\62";
+        font-family: 'ElegantIcons';
+        color:#A1B1BC;
+        font-size: 3rem; 
+    }
+    .header-nav.toggleCls{
+        display: flex;
+    }
 }
 
 
