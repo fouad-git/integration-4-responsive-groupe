@@ -155,12 +155,16 @@ header{
 
 
 /*bouton shopping header*/
-#shopping-button{
+.shopping-button{
     height: min-content;
     padding: 0.5rem 0.5625rem 0.5rem 0.3125rem;
     border: 1px solid #ecf0f1;
     border-radius: 3px;
     margin-right: 0.9375rem;
+    font-size: 0.8125rem;
+}
+#responsive-shopping {
+    display: none;
 }
 .header-link>a>span{
     font-size: 0.8125rem;
@@ -284,6 +288,9 @@ header{
     display: none;
 }
 /*Responsive Header*/
+.burger-layout{
+    margin-bottom: 7px;
+}
 @media only screen and (min-width : 991px) and (max-width : 1324px){
     .container{
         max-width: 900px;
@@ -408,6 +415,12 @@ header{
     .header-nav.toggleCls{
         display: flex;
     }
+    #responsive-shopping {
+        display: block;
+        margin-left: auto;
+        font-size: 1rem;
+    }
+
 }
 @media only screen and (max-device-width : 480px)  {
     .top-header-layout{
@@ -425,7 +438,7 @@ header{
         position: absolute;
         flex-direction: column;
         background-color: #222533;
-        top: 85px;
+        top: 67px;
         right:0;
         width: 100%;            
         font-size: 1.5rem;
@@ -469,6 +482,19 @@ header{
     }
     .header-nav.toggleCls{
         display: flex;
+    }
+    
+    #responsive-shopping {
+        display: block;
+        margin-left: auto;
+        margin-right: 0.5rem;
+        padding:0.5rem;
+    }
+    #responsive-shopping>img{
+        height: 20px;
+    }
+    #responsive-shopping>span{
+        display: none;
     }
 }
 
