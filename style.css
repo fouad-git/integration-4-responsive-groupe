@@ -161,6 +161,9 @@ box-sizing: border-box;
 {
     background-color: #21C2F8;
 }  
+.cl-bg-binb1{
+    background-color: #545760;
+}
 
 /*marges*/
 .mrg0{
@@ -643,6 +646,17 @@ header{
 /*-----$fin utilitaires$-----*/
     
 
+.borrd
+{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding:20px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.hov5 :hover{
+    background-color: #21C2F8;
+}
 
 
 
