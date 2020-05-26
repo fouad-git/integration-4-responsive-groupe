@@ -3,12 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>integration-4-responsive-groupe</title>
 </head>
 <body>
-    <header></header>
+    <header>
+        <div class="border-top-header">
+            <div class="top-header-layout d-flex container flex-justify-between align-item-center">
+                <nav class="nav-languages text_lato-bold"><a href="#">Choose Your Languages<img src="medias/low_arrow.jpg" alt=""/></a>
+                    <ul class="list-languages">
+                        <li><a href="#" style="color:black;text-align: center;">English</a></li>
+                    </ul>
+                </nav>
+                <nav class="header-link d-flex flex-justify-center align-item-center">
+                    <a href="#"  class="shopping-button d-flex align-item-center">
+                        <img src="medias/shopping_basket.jpg" alt="Logo shopping basket"/>
+                        <span class="text_lato-black text-color">MY CART</span>
+                    </a>
+                    <ul class="header-list-social d-flex flex-justify-between">
+                        <li><a href="#" class="icon-facebook text_icon"></a></li>
+                        <li><a href="#" class="icon-twitter text_icon"></a></li>
+                        <li><a href="#" class="icon-tumblr text_icon"></a></li>
+                        <li><a href="#" class="icon-vimeo text_icon"></a></li>
+                        <li><a href="#" class="icon-linkdin text_icon"></a></li>
+                        <li><a href="#" class="icon-beehance text_icon"></a></li>
+                        <li><a href="#" class="icon-instagram text_icon"></a></li>
+                        <li><a href="#" class="icon-rss text_icon"></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="border-shadow">
+            <div class="header-navbar d-flex container flex-justify-between align-item-center">
+                <a href="#" class="navbar-brand d-flex text_lato-regular"><img src="medias/logo_thefox.jpg" alt="Logo thefox"/>the<span class="text_lato-black text-navy-blue">fox</span></a>
+                <a href="#" id="responsive-shopping" class="shopping-button d-flex align-item-center">
+                    <img src="medias/shopping_basket.jpg" alt="Logo shopping basket"/>
+                    <span class="text_lato-black text-color">MY CART</span>
+                </a>
+                <div class="burger-layout d-flex align-item-center"><a id="burger"  onclick="toggleClass()"></a></div>
+                <nav class="header-nav d-flex align-item-center flex-justify-between">
+                    <ul class="d-flex flex-justify-between align-item-center text_lato-regular h-100">
+                        <li class="header-nav-item d-flex align-item-center"><a href="#">Home</a></li>
+                        <li class="header-nav-item d-flex align-item-center"><a href="#">Page</a></li>
+                        <li class="header-nav-item d-flex align-item-center"><a href="#">Portofolio</a></li>
+                        <li class="header-nav-item d-flex align-item-center"><a href="#">Blog</a></li>
+                        <li class="header-nav-item d-flex align-item-center"><a href="#">Shop</a></li>
+                        <li class="header-nav-item d-flex align-item-center"><a href="#">Travel</a></li>
+                        <li class="header-nav-item d-flex align-item-center"><a href="#">Shortcodes</a></li>
+                        <li class="header-nav-item d-flex align-item-center"><a href="#">Features</a></li>
+                        <li class="header-nav-item d-flex align-item-center"><a href="#">Contact</a></li>
+                    </ul>
+                    <a href="#" class="icon-search text_icon "></a>
+            
+                </nav>
+            </div>
+        </div>
+        <div class="border-header-title">
+            <section class="header-title d-flex container flex-justify-between">
+                <h1>Blog Masonry Style</h1>
+                <nav class="breadcrumb ">
+                    <ul class="d-flex h-100 align-item-center">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><span aria-current="page" class="text_lato-bold text-color">Masonry</span></li>
+                    </ul>
+                </nav>
+            </section>
+        </div>
+    </header>
     <main></main>
     <footer></footer>
-    
+    <script src="app.js"></script>
 </body>
 </html>
