@@ -605,6 +605,7 @@ animation: mg 3s infinite;
         position: relative;
         left: 990px;
         bottom: 555px;
+        max-width: 180px;
     }
     .icons-carré
     {
@@ -632,3 +633,172 @@ animation: mg 3s infinite;
         transform: scale(0.98)
      }
 
+/*medias queries*/
+/*@media only screen and (min-width : 991px) and (max-width : 1324px){}
+@media only screen and (min-width : 768px) and (max-width : 991px){}
+@media only screen and (min-device-width : 480px) and (max-width:767.98px){}
+@media only screen and (max-device-width : 480px){}*/
+@media only screen and (min-width : 991px) and (max-width : 1250px){
+    .main>*{
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .container{
+    max-width: 900px;
+    }
+    .container>*{
+    margin:1rem 0 0 0;
+    position: unset;
+    }
+    .box16{
+    position: unset;
+    left: unset;
+    }
+    .icons{
+    left: unset;
+    position: unset;
+    }
+    .box5,.box6,.box7,.box8,.box9,.box10,.box11,.box12,.box13,.box14,.box15,.box16,.hr,.icons{
+    position: relative;
+    }
+    .box5{
+    bottom: 835px;
+    }
+    .box6{
+    bottom: 130px;
+    }
+    .box8{
+    bottom: 1230px;
+    }
+    .box9{
+    bottom:550px;
+    }
+    .box10{
+    bottom:550px;
+    }
+    .box11{
+    bottom:1590px;
+    
+    }
+    .box12{
+    right: -528px;
+    bottom: 1810px;
+    }
+    .box13{
+    bottom:1420px;
+    right: -528px;
+    }
+    .box14{
+    bottom:1810px;
+    }
+    .box15{
+    bottom: 1710px;
+    }
+    .box16{
+    bottom: 1960px;
+    right: -528px;
+    }
+    .hr{
+    bottom: 1600px;
+    }
+    .icons{
+    bottom: 1600px;
+    }
+    
+    }
+
+@media only screen and (min-width : 768px) and (max-width : 991px){
+    .main>*{
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .container{
+    max-width: 750px;
+    }
+    .container>*{
+    margin:1rem 0 0 0;
+    position: unset;
+    }
+    .box16{
+    position: unset;
+    left: unset;
+    }
+    .icons{
+    left: unset;
+    position: unset;
+    }
+    .box5,.box6,.box7,.box8,.box9,.box10,.box11,.box12,.box13,.box14,.box15,.box16,.hr,.icons{
+    position: relative;
+    }
+    .box5{
+    bottom: 835px;
+    }
+    .box6{
+    bottom: 130px;
+    }
+    .box8{
+    bottom: 1230px;
+    }
+    .box9{
+    bottom:550px;
+    }
+    .box10{
+    bottom:550px;
+    }
+    .box11{
+    bottom:1590px;
+    }
+    .box12{
+    right: -378px;
+    bottom: 1810px;
+    }
+    .box13{
+    bottom:1420px;
+    right: -378px;
+    }
+    .box14{
+    bottom:1810px;
+    }
+    .box15{
+    bottom: 1710px;
+    }
+    .box16{
+    bottom: 1960px;
+    right: -378px;
+    }
+    .hr{
+    bottom: 1900px;
+    }
+    .icons{
+    bottom: 1870px;
+    }
+    }
+    @media only screen and (min-device-width : 480px) and (max-width:767.98px){
+    .main>div{
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 90%;
+    }
+    .container>*{
+    margin: 1rem 0 0 0;
+    position: unset;
+    }
+    .main>:last-child{
+    display: flex;
+    }
+    }
+    @media only screen and (max-device-width : 480px){
+    .main>div{
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 90%;
+    }
+    .container>*{
+    margin: 1rem 0 0 0;
+    position: unset;
+    }
+    .main>:last-child{
+    display: flex;
+    
+    }
+    }
