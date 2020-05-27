@@ -1,26 +1,19 @@
-@font-face {
-	font-family: 'ElegantIcons';
-	src:url('fonts/ElegantIcons.eot');
-	src:url('fonts/ElegantIcons.eot?#iefix') format('embedded-opentype'),
-		url('fonts/ElegantIcons.woff') format('woff'),
-		url('fonts/ElegantIcons.ttf') format('truetype'),
-		url('fonts/ElegantIcons.svg#ElegantIcons') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
+body{
+     margin: 0;
+ }
 
 footer{
-    width: 120rem;
+    width: 100%;
     height: 35.5rem;
 }
 
 
 footer h1{
-    margin-block-end: 0px;
-    margin-block-start: 0rem;
+    margin-block-end: 0;
+    margin-block-start: 0;
     font-size: 1rem;
     color: #ECF0F1;
-    width: 14.125rem;
+    width: 100%;
     height: 1.75rem;
 
 }
@@ -47,27 +40,36 @@ footer p{
 footer header{
     padding-bottom: 1.125rem;
 }
+
  .block{
      width: 23.375rem;
  }
+
 .haut{
     display: flex;
     align-items: center;
     background-color: #222533;
-    width: 120rem;
+    width: 100%;
     height: 29.1875rem;
     border-top: 6.0625rem;
 }
 
+.fond{
+    display: flex;
+    width: 100%;
+    max-width: 1170px;
+    margin: auto;
+    flex-direction: row;
+}
+
 .post{
-    width: 16.875rem;
+    width: 23%;
     height: 16.8125rem;
     padding-right: 1.25rem;
-    padding-left: 23.375rem;
 }
 
 .foot{
-    width: 16.875rem;
+    width: 23%;
     height: 16.8125rem;
     padding-right: 1.25rem;
 
@@ -75,19 +77,19 @@ footer header{
 
 .visit{
     line-height: 1.5rem;
-    width: 16.875rem;
+    width: 100%;
     height: 3.9375rem;
     color: #A1B1BC;
     padding-top: 1.0625rem;
 }
 
 .designed{
-    width: 16.875rem;
+    width: 100%;
     height: 3.9375rem;
 }
 
 .lorem{
-    width: 16.75rem;
+    width: 100%;
     height: 6.625rem;
     font-size: 0.875rem;
     line-height: 1.5rem;
@@ -125,16 +127,14 @@ width: 100%;
     flex-direction: row;
     color: #A1B1BC;
     justify-content: space-between;
+    margin: auto;
 }
 
-
-
 .reserved{
-    padding-left: 23.4375rem;
     font-size: 0.9375rem;
     height: 1.125rem;
     width: 30.75rem; 
-    padding-top: 2.5625rem;
+    margin: auto;
 }
 
 .tranmau{
@@ -151,8 +151,7 @@ width: 100%;
     margin-block-start: 0px;
     height: 1.3125rem;
     font-size: 1rem;
-    padding-top: 2.5rem;
-    padding-right: 23.4375rem;
+    margin: auto;
     font-family: 'ElegantIcons';
     justify-content: space-between;
     align-items: center;
@@ -207,4 +206,890 @@ width: 100%;
 .social_rss:before {
     content: "\e09e";
     font-size: 1rem;
+}
+
+
+/* Premier média */
+@media only screen and (min-width : 991px) and (max-width : 1324px){
+
+html{
+    font-size: 14px;
+}
+
+footer{
+    width: 100%;
+    height: 35.5rem;
+}
+
+
+footer h1{
+    margin-block-end: 0px;
+    margin-block-start: 0rem;
+    font-size: 1rem;
+    color: #ECF0F1;
+    width: 14.125rem;
+    height: 1.75rem;
+
+}
+
+footer a{
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    font-size: 1rem;
+    color: #ECF0F1;
+    font-weight: bold;
+    text-decoration: none;
+}  
+
+footer .haut a:hover{
+    color: #1ABC9C;
+}
+
+footer p{
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    font-size: 0.875rem;
+} 
+
+footer header{
+    padding-bottom: 1.125rem;
+}
+
+ .block{
+     width: 23.375rem;
+ }
+
+.haut{
+    display: flex;
+    align-items: center;
+    background-color: #222533;
+    width: 100%;
+    height: 29.1875rem;
+    border-top: 6.0625rem;
+}
+
+.fond{
+    display: flex;
+    width: 100%;
+    max-width: 1170px;
+    margin: 5vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.post{
+    width: 23%;
+    height: 16.8125rem;
+    padding-right: 1.25rem;
+}
+
+.foot{
+    width: 23%;
+    height: 16.8125rem;
+    padding-right: 1.25rem;
+
+}
+
+.visit{
+    line-height: 1.5rem;
+    width: 100%;
+    height: 3.9375rem;
+    color: #A1B1BC;
+    padding-top: 1.0625rem;
+}
+
+.designed{
+    width: 100%;
+    height: 3.9375rem;
+}
+
+.lorem{
+    width: 100%;
+    height: 6.625rem;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    color: #A1B1BC;
+    padding-top: 1.0625rem;
+}
+
+.learn{
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: #ECF0F1;
+    height: 1.4375rem;
+}
+
+.learn:hover{
+    color: #1ABC9C;
+}
+
+.trait{
+background-color: #46515C;
+height: 0.0625rem;
+width: 100%;
+}
+
+.vert{
+    background-color: #1ABC9C;
+    height: 0.1875rem;
+    width: 4.375rem;
+}
+
+.bas{
+    height: 6.25rem;
+    background-color: #171D22;
+    display: flex;
+    flex-direction: row;
+    color: #A1B1BC;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.reserved{
+    font-size: 0.9375rem;
+    height: 1.125rem;
+    width: 30.75rem; 
+    margin: auto;
+}
+
+.tranmau{
+    color: #A1B1BC;
+    font-weight: normal;
+}
+.tranmau:hover{
+    color: #1ABC9C;
+}
+
+.icons{
+    list-style: none;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    height: 1.3125rem;
+    font-size: 1rem;
+    margin: auto;
+    font-family: 'ElegantIcons';
+    justify-content: space-between;
+    align-items: center;
+    color: #A1B1BC;
+}
+
+.icons a{
+    color: #A1B1BC;
+}
+
+.icons a:hover{
+    color: #ECF0F1;
+}
+
+.social_facebook:before{
+    content: "\e093";
+    font-size: 1rem;
+}
+
+.social_twitter:before {
+    content: "\e094";
+    font-size: 1rem;
+}  
+
+.social_tumblr:before {
+    content: "\e097";
+    font-size: 1rem;
+    
+}
+
+.social_vimeo:before {
+    content: "\e09c";
+    font-size: 1rem;
+}
+
+.social_linkedin:before {
+    content: "\e09d";
+    font-size: 1rem;
+}
+
+.social_dribbble:before {
+    content: "\e09b";
+    font-size: 1rem;
+}
+
+.social_instagram:before {
+    content: "\e09a";
+    font-size: 1rem;
+
+}
+
+.social_rss:before {
+    content: "\e09e";
+    font-size: 1rem;
+}
+}
+
+/* Deuxième média */
+@media only screen and (min-width : 768px) and (max-width : 991px){
+
+    html{
+        font-size: 12px;
+    }
+
+    body{
+        max-width: 971px;
+    }
+
+    footer{ 
+        max-width: 971px;
+        width: 100%;
+        height: 35.5rem;
+        font-size: 100%;
+    }
+    
+    
+    footer h1{
+        margin-block-end: 0px;
+        margin-block-start: 0rem;
+        font-size: 1rem;
+        color: #ECF0F1;
+        width: 14.125rem;
+        height: 1.75rem;
+    
+    }
+    
+    footer a{
+        margin-block-end: 0px;
+        margin-block-start: 0px;
+        font-size: 1rem;
+        color: #ECF0F1;
+        font-weight: bold;
+        text-decoration: none;
+    }  
+    
+    footer .haut a:hover{
+        color: #1ABC9C;
+    }
+    
+    footer p{
+        margin-block-end: 0px;
+        margin-block-start: 0px;
+        font-size: 0.875rem;
+    } 
+    
+    footer header{
+        padding-bottom: 1.125rem;
+    }
+    
+    
+    .haut{
+        display: flex;
+        align-items: center;
+        background-color: #222533;
+        width: 100%;
+        max-width: 971px;
+        height: auto;
+        border-top: 6.0625rem;
+    }
+    
+    .fond{
+        display: flex;
+        width: 80vw;
+        /* max-width: 950px; */
+        margin: auto;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .post{
+        width: 23vw;
+        height: 16.8125rem;
+        padding-top: 2vw;
+        padding-right: 5vw;
+    }
+    
+    .foot{
+        width: 23vw;
+        height: auto;
+        
+        padding-top: 2vw;
+    
+    }
+    
+    .visit{
+        line-height: 1.5rem;
+        width: 100%;
+        height: 3.9375rem;
+        color: #A1B1BC;
+        padding-top: 1.0625rem;
+    }
+    
+    .designed{
+        width: 100%;
+        height: 3.9375rem;
+    }
+    
+    .lorem{
+        width: 100%;
+        height: 6.625rem;
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+        color: #A1B1BC;
+        padding-top: 1.0625rem;
+    }
+    
+    .learn{
+        font-size: 0.875rem;
+        font-weight: bold;
+        color: #ECF0F1;
+        height: 1.4375rem;
+    }
+    
+    .learn:hover{
+        color: #1ABC9C;
+    }
+    
+    .trait{
+    background-color: #46515C;
+    height: 0.0625rem;
+    width: 100%;
+    }
+    
+    .vert{
+        background-color: #1ABC9C;
+        height: 0.1875rem;
+        width: 4.375rem;
+    }
+    
+    .bas{
+        height: 6.25rem;
+        background-color: #171D22;
+        display: flex;
+        flex-direction: row;
+        color: #A1B1BC;
+        justify-content: space-between;
+        margin: auto;
+    }
+    
+    .reserved{
+        font-size: 0.9375rem;
+        height: 1.125rem;
+        width: 30.75rem; 
+        margin: auto;
+    }
+    
+    .tranmau{
+        color: #A1B1BC;
+        font-weight: normal;
+    }
+    .tranmau:hover{
+        color: #1ABC9C;
+    }
+    
+    .icons{
+        list-style: none;
+        margin-block-end: 0px;
+        margin-block-start: 0px;
+        height: 1.3125rem;
+        font-size: 1rem;
+        margin: auto;
+        font-family: 'ElegantIcons';
+        justify-content: space-between;
+        align-items: center;
+        color: #A1B1BC;
+    }
+    
+    .icons a{
+        color: #A1B1BC;
+    }
+    
+    .icons a:hover{
+        color: #ECF0F1;
+    }
+    
+    .social_facebook:before{
+        content: "\e093";
+        font-size: 1rem;
+    }
+    
+    .social_twitter:before {
+        content: "\e094";
+        font-size: 1rem;
+    }  
+    
+    .social_tumblr:before {
+        content: "\e097";
+        font-size: 1rem;
+        
+    }
+    
+    .social_vimeo:before {
+        content: "\e09c";
+        font-size: 1rem;
+    }
+    
+    .social_linkedin:before {
+        content: "\e09d";
+        font-size: 1rem;
+    }
+    
+    .social_dribbble:before {
+        content: "\e09b";
+        font-size: 1rem;
+    }
+    
+    .social_instagram:before {
+        content: "\e09a";
+        font-size: 1rem;
+    
+    }
+    
+    .social_rss:before {
+        content: "\e09e";
+        font-size: 1rem;
+    }
+
+}
+
+@media only screen and (min-device-width : 480px) and (max-width:767.98px){
+
+    html{
+        font-size: 8px;
+    }
+
+    body{
+        max-width: 767,98px;
+    }
+
+    footer{ 
+        max-width: 767,98px;
+        width: 100%;
+        height: 35.5rem;
+        font-size: 100%;
+    }
+    
+    
+    footer h1{
+        margin-block-end: 0px;
+        margin-block-start: 0rem;
+        font-size: 1rem;
+        color: #ECF0F1;
+        width: 14.125rem;
+        height: 1.75rem;
+    
+    }
+    
+    footer a{
+        margin-block-end: 0px;
+        margin-block-start: 0px;
+        font-size: 1rem;
+        color: #ECF0F1;
+        font-weight: bold;
+        text-decoration: none;
+    }  
+    
+    footer .haut a:hover{
+        color: #1ABC9C;
+    }
+    
+    footer p{
+        margin-block-end: 0px;
+        margin-block-start: 0px;
+        font-size: 0.875rem;
+    } 
+    
+    footer header{
+        padding-bottom: 1.125rem;
+    }
+    
+    
+    .haut{
+        display: flex;
+        align-items: center;
+        background-color: #222533;
+        width: 100%;
+        max-width: 971px;
+        height: auto;
+        border-top: 6.0625rem;
+    }
+    
+    .fond{
+        display: flex;
+        width: 80vw;
+        /* max-width: 950px; */
+        margin: auto;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .post{
+        width: 23vw;
+        height: 16.8125rem;
+        padding-top: 2vw;
+        padding-right: 5vw;
+    }
+    
+    .foot{
+        width: 23vw;
+        height: auto;
+        
+        padding-top: 2vw;
+    
+    }
+    
+    .visit{
+        line-height: 1.5rem;
+        width: 100%;
+        height: 3.9375rem;
+        color: #A1B1BC;
+        padding-top: 1.0625rem;
+    }
+    
+    .designed{
+        width: 100%;
+        height: 3.9375rem;
+    }
+    
+    .lorem{
+        width: 100%;
+        height: 6.625rem;
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+        color: #A1B1BC;
+        padding-top: 1.0625rem;
+    }
+    
+    .learn{
+        font-size: 0.875rem;
+        font-weight: bold;
+        color: #ECF0F1;
+        height: 1.4375rem;
+    }
+    
+    .learn:hover{
+        color: #1ABC9C;
+    }
+    
+    .trait{
+    background-color: #46515C;
+    height: 0.0625rem;
+    width: 100%;
+    }
+    
+    .vert{
+        background-color: #1ABC9C;
+        height: 0.1875rem;
+        width: 4.375rem;
+    }
+    
+    .bas{
+        height: 6.25rem;
+        background-color: #171D22;
+        display: flex;
+        flex-direction: row;
+        color: #A1B1BC;
+        justify-content: space-between;
+        margin: auto;
+    }
+    
+    .reserved{
+        font-size: 0.9375rem;
+        height: 1.125rem;
+        width: 30.75rem; 
+        margin: auto;
+    }
+    
+    .tranmau{
+        color: #A1B1BC;
+        font-weight: normal;
+    }
+    .tranmau:hover{
+        color: #1ABC9C;
+    }
+    
+    .icons{
+        list-style: none;
+        margin-block-end: 0px;
+        margin-block-start: 0px;
+        height: 1.3125rem;
+        font-size: 1rem;
+        margin: auto;
+        font-family: 'ElegantIcons';
+        justify-content: space-between;
+        align-items: center;
+        color: #A1B1BC;
+    }
+    
+    .icons a{
+        color: #A1B1BC;
+    }
+    
+    .icons a:hover{
+        color: #ECF0F1;
+    }
+    
+    .social_facebook:before{
+        content: "\e093";
+        font-size: 1rem;
+    }
+    
+    .social_twitter:before {
+        content: "\e094";
+        font-size: 1rem;
+    }  
+    
+    .social_tumblr:before {
+        content: "\e097";
+        font-size: 1rem;
+        
+    }
+    
+    .social_vimeo:before {
+        content: "\e09c";
+        font-size: 1rem;
+    }
+    
+    .social_linkedin:before {
+        content: "\e09d";
+        font-size: 1rem;
+    }
+    
+    .social_dribbble:before {
+        content: "\e09b";
+        font-size: 1rem;
+    }
+    
+    .social_instagram:before {
+        content: "\e09a";
+        font-size: 1rem;
+    
+    }
+    
+    .social_rss:before {
+        content: "\e09e";
+        font-size: 1rem;
+    }
+
+}
+
+
+@media only screen and (max-device-width : 480px){
+
+    
+    html{
+        font-size: 6px;
+    }
+
+    body{
+        max-width: 480px;
+    }
+
+    footer{ 
+        max-width: 480px;
+        width: 100%;
+        height: 35.5rem;
+        font-size: 100%;
+    }
+    
+    
+    footer h1{
+        margin-block-end: 0px;
+        margin-block-start: 0rem;
+        font-size: 1rem;
+        color: #ECF0F1;
+        width: 14.125rem;
+        height: 1.75rem;
+    
+    }
+    
+    footer a{
+        margin-block-end: 0px;
+        margin-block-start: 0px;
+        font-size: 1rem;
+        color: #ECF0F1;
+        font-weight: bold;
+        text-decoration: none;
+    }  
+    
+    footer .haut a:hover{
+        color: #1ABC9C;
+    }
+    
+    footer p{
+        margin-block-end: 0px;
+        margin-block-start: 0px;
+        font-size: 0.875rem;
+    } 
+    
+    footer header{
+        padding-bottom: 1.125rem;
+    }
+    
+    
+    .haut{
+        display: flex;
+        align-items: center;
+        background-color: #222533;
+        width: 100%;
+        max-width: 971px;
+        height: auto;
+        border-top: 6.0625rem;
+    }
+    
+    .fond{
+        display: flex;
+        width: 80vw;
+        /* max-width: 950px; */
+        margin: auto;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .post{
+        width: 23vw;
+        height: 16.8125rem;
+        padding-top: 2vw;
+        padding-right: 5vw;
+    }
+    
+    .foot{
+        width: 23vw;
+        height: auto;
+        
+        padding-top: 2vw;
+    
+    }
+    
+    .visit{
+        line-height: 1.5rem;
+        width: 100%;
+        height: 3.9375rem;
+        color: #A1B1BC;
+        padding-top: 1.0625rem;
+    }
+    
+    .designed{
+        width: 100%;
+        height: 3.9375rem;
+    }
+    
+    .lorem{
+        width: 100%;
+        height: 6.625rem;
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+        color: #A1B1BC;
+        padding-top: 1.0625rem;
+    }
+    
+    .learn{
+        font-size: 0.875rem;
+        font-weight: bold;
+        color: #ECF0F1;
+        height: 1.4375rem;
+    }
+    
+    .learn:hover{
+        color: #1ABC9C;
+    }
+    
+    .trait{
+    background-color: #46515C;
+    height: 0.0625rem;
+    width: 100%;
+    }
+    
+    .vert{
+        background-color: #1ABC9C;
+        height: 0.1875rem;
+        width: 4.375rem;
+    }
+    
+    .bas{
+        height: 6.25rem;
+        background-color: #171D22;
+        display: flex;
+        flex-direction: row;
+        color: #A1B1BC;
+        justify-content: space-between;
+        margin: auto;
+    }
+    
+    .reserved{
+        font-size: 0.9375rem;
+        height: 1.125rem;
+        width: 30.75rem; 
+        margin: auto;
+    }
+    
+    .tranmau{
+        color: #A1B1BC;
+        font-weight: normal;
+    }
+    .tranmau:hover{
+        color: #1ABC9C;
+    }
+    
+    .icons{
+        list-style: none;
+        margin-block-end: 0px;
+        margin-block-start: 0px;
+        height: 1.3125rem;
+        font-size: 1rem;
+        margin: auto;
+        font-family: 'ElegantIcons';
+        justify-content: space-between;
+        align-items: center;
+        color: #A1B1BC;
+    }
+    
+    .icons a{
+        color: #A1B1BC;
+    }
+    
+    .icons a:hover{
+        color: #ECF0F1;
+    }
+    
+    .social_facebook:before{
+        content: "\e093";
+        font-size: 1rem;
+    }
+    
+    .social_twitter:before {
+        content: "\e094";
+        font-size: 1rem;
+    }  
+    
+    .social_tumblr:before {
+        content: "\e097";
+        font-size: 1rem;
+        
+    }
+    
+    .social_vimeo:before {
+        content: "\e09c";
+        font-size: 1rem;
+    }
+    
+    .social_linkedin:before {
+        content: "\e09d";
+        font-size: 1rem;
+    }
+    
+    .social_dribbble:before {
+        content: "\e09b";
+        font-size: 1rem;
+    }
+    
+    .social_instagram:before {
+        content: "\e09a";
+        font-size: 1rem;
+    
+    }
+    
+    .social_rss:before {
+        content: "\e09e";
+        font-size: 1rem;
+    }
+
 }
