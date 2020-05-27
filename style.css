@@ -663,7 +663,7 @@ header{
 
 body{
     margin:0;
-    overflow-x: hidden;
+
    
 }
 .main
@@ -981,7 +981,7 @@ body{
  {
     width: 100%;
     max-width: 370px;
-    height:285px;
+    height:275px;
     border: 1px solid #ECF0F1;
     position: relative;
     bottom:665px;
@@ -1077,6 +1077,16 @@ animation: mg 3s infinite;
         background-color: #2C3E50;
         color: #1ABC9C;
         transform: scale(0.98)
+     }
+     .paravft
+     {
+         position:relative;
+         bottom: 502px;
+         color: #A1B1BC;
+     }
+     .paravft span{
+         color:#1ABC9C;
+         font-weight: bold;
      }
 
 /*medias queries*/
